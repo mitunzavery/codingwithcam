@@ -12,7 +12,7 @@
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
         integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
         crossorigin=""></script>
-
+    <script src="https://unpkg.com/@joergdietrich/leaflet.terminator"></script>
     <style>
         #mapid {
             height: 680px;
@@ -35,6 +35,7 @@
         zoomOffset: -1,
         accessToken: 'pk.eyJ1IjoibXphdmVyeSIsImEiOiJja2N4NG5sd2swM3RnMnlzd2o2NmllcXF2In0.AvMRv2DxB--8hfsxamtcJA'
         }).addTo(mymap);
+        var arnie = L.terminator().addTo(mymap);
     </script>
     
 
